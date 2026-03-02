@@ -74,6 +74,29 @@ section h3 {
   margin-bottom: 8px;
 }
 
+/* participants list inside activity cards */
+.activity-card .participants {
+  margin-top: 10px;
+}
+
+.activity-card .participants ul {
+  margin: 4px 0 0 1rem;
+  padding: 0;
+  list-style: none;            /* hide default bullets */
+}
+
+.activity-card .participants li {
+  /* no list-style; spacing is handled by margin */
+  margin-bottom: 4px;
+}
+
+.activity-card .participants .remove {
+  margin-left: 0.5rem;
+  color: #c62828;
+  cursor: pointer;
+  font-weight: bold;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
@@ -142,3 +165,29 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* …existing code… */
+
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    width: 250px;
+}
+
+.card .participants {
+    margin-top: 0.75rem;
+}
+
+.card .participants ul {
+    margin: 0.25rem 0 0 1rem;
+    padding: 0;
+}
+
+.card .participants li {
+    list-style-type: disc;
+}
+
+/* …existing code… */
